@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+.containerConselho__blockTitle{
+	color: #13007C;
+	display: flex;
+	align-self: flex-start;
+	font-size: 18px;
+}
+.containerConselho{
+	width: 100%;
+	height: 80vh;
+	display:  flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: yellow;
+}	
+.containerConselho__block{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	right: 20vw;
+}
+.containerConselho__title{
+	color: #13007C;
+	font-size: 27px;
+	margin-bottom: 20px;
+	font-family: 'Muli', sans-serif;
+}
+.containerConselho__blockImage{
+	width: 240px;
+	height: 220px;
+	box-shadow: -10px 10px 0px #13007C;
+}
+.containerConselho__blockAdmin{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	position: relative;
+	right: 18vw;
+}
+.containerConselho__blockAdmin--title{
+	margin-top: 15px;
+	font-family: 'Muli', sans-serif;	
+}
+.containerConselho__blockAdmin--titleBlue{
+	color: #13007C;
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;	
+}
+.containerConselho__blockAdmin--paragraph{
+	color: #AFAFAF;
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;	
+}
+.containerCamaras{
+	width: 100%;
+	height: 55vh;
+	display: flex;
+	justify-content: space-around;
+	background-color: #01A0C6;
+}
+.containerCamaras__block{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.containerCamaras__block--paragraph{
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+	width: 60%;
+	padding: 3px;
+}
+.containerCamaras__block--title{
+	font-size: 25px;
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+	margin-bottom: 25px;
+	position: relative;
+	right: 75px;
+}
+.containerCamaras__image{
+	padding-top: 10px;
+	position: relative;
+	right: 10vw;
+}
