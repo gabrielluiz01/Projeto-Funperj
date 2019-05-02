@@ -19,7 +19,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	background-color: yellow;
+	/*background-color: yellow;*/
 }	
 .containerConselho__block{
 	display: flex;
@@ -90,6 +90,76 @@
 }
 .containerCamaras__image{
 	padding-top: 10px;
+	padding-bottom: 5px;
 	position: relative;
 	right: 10vw;
+}
+.containerPubl{
+	display: flex;
+	justify-content: space-around;
+}
+.containerPubl__block--imagetitle{
+	display: flex;
+	flex-direction: column;
+}
+.containerPubl__block--title{
+	font-size: 30px;
+	color: #13007C;
+	font-family: 'Muli', sans-serif;
+	position: relative;
+	left: 15vw;
+	top: 10vh;
+}
+.containerPubl__block--image{
+	width: 550px;
+	position: relative;
+	right: 15vw;
+	top: 5vh;
+	padding-bottom: 15px;
+}
+.containerPubl__block{
+	width: 30vw;	
+	display: flex;
+	flex-direction: column;	
+	position: relative;
+	top: 20vh;
+}
+.blockBorder{
+	margin-top: 20px;
+	border-left-style: dotted;
+	border-left-color: #E86F17;
+	padding-left: 8px;
+	position: relative;
+	right: 10vw;
+}
+.containerPubl__block--subtitle{
+	font-size: 20px;
+	font-family: 'Muli', sans-serif;
+	font-weight: bolder;
+	line-height: 1.5em;
+}
+.containerPubl__block--paragraph{
+	font-size: 20px;
+	font-family: 'Muli', sans-serif;
+	line-height: 1.9em;
+}
+.containerfilie{
+	width: 100%;
+	display: flex;
+	background-color: #F9F9F9;
+}
+.containerfilie__block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.containerfilie__block--title{
+	font-size: 30px;
+	color: #13007C;	
+}
+.containerfilie__block--paragraph{
+	width: 30%;
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
 }
