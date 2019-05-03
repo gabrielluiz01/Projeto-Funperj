@@ -9,16 +9,16 @@ header{
 	/*background-color: #CDD;*/
 }
 
-.containerLogo{
+.headerLogo{
 	width: 12%;
 	margin-left: 40px;
 }
 @media(max-width: 640px){
-	.containerLogo{
+	.headerLogo{
 		width: 80%;
 	}
 }
-.containerMenu{
+.headerMenu{
 	width: 100%;
 	font-size: 16px;
 	margin-left: 22px;
@@ -27,7 +27,7 @@ header{
 	align-items: center;
 }
 
-.containerMenu-item{
+.headerMenu-item{
 	text-decoration: none;
 	color: #000000;
 	margin: 20px;
@@ -35,7 +35,7 @@ header{
 }
 
 @media(max-width: 640px){
-	.containerMenu-item{
+	.headerMenu-item{
 		display: none;
 	}
 }
