@@ -15,7 +15,7 @@ header{
 }
 @media(max-width: 640px){
 	.containerLogo{
-		width: 55%;
+		width: 80%;
 	}
 }
 .containerMenu{
@@ -26,9 +26,16 @@ header{
 	display: flex;
 	align-items: center;
 }
+
 .containerMenu-item{
 	text-decoration: none;
 	color: #000000;
 	margin: 20px;
 
+}
+
+@media(max-width: 640px){
+	.containerMenu-item{
+		display: none;
+	}
 }
