@@ -6,6 +6,9 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
+html{
+	width: 100%;
+}
 body{
 	width: 100%;
 }
@@ -54,16 +57,13 @@ body{
 	color: #fff;
 	font-weight: bold;
 	position: relative;
-	top: 15vh;
 }
 .containerfed__blockSobre--paragraph{
 	font-size: 14px;
 	font-family: 'Muli', sans-serif;
 	width: 35vw;
 	color: #fff;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	line-height: 1.3em;
+	margin-top: -100px;
 }
 .containerfed__blockPresi{
 	width: 70vw;
