@@ -6,9 +6,6 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
-html{
-	width: 100%;
-}
 body{
 	width: 100%;
 }
@@ -19,15 +16,28 @@ body{
 	flex-flow: wrap;
 	justify-content: space-between;
 	background-color: #2E3192;
+	position: relative;
 }
 .containerfed__blockImage{
 	width: 30%;
 	align-self: flex-start;
 }
 .containerfed--image{
-	position: relative;
-	right: 8vw;
-	bottom: 14vh;
+	width: 1100px;
+	height: 1100px;
+	position: absolute;
+	right: 7vw;
+	bottom: 17vh;
+}
+@media (max-width: 980px){
+	.containerfed--image{
+		right: 1vw;
+	}
+}
+@media (max-width: 768px){
+	.containerfed--image{
+		align-self: center;
+	}
 }
 .containerfed__blockSobre{
 	height: 130vh;
@@ -44,12 +54,22 @@ body{
 	font-size: 30px;
 	color: #fff;
 }
+@media (max-width: 1045px){
+	.containerfed__blockSobre--title{
+		font-size: 25px;
+	}
+}
 .containerfed__blockSobre--sub{
+	width: 6vw;
 	font-family: 'Muli', sans-serif;
 	font-size: 20px;
-	width: 6vw;
 	color: #fff;
 	border-bottom-style: dotted;
+}
+@media (max-width: 1045px){
+	.containerfed__blockSobre--sub{
+		font-size: 15px;
+	}
 }
 .containerfed__blockSobre--subtitle{
 	font-size: 25px;
@@ -63,21 +83,26 @@ body{
 	font-family: 'Muli', sans-serif;
 	width: 35vw;
 	color: #fff;
-	margin-top: -100px;
 }
 .containerfed__blockPresi{
 	width: 70vw;
 	height: 295px;
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: center;
+	align-items: flex-start;
 	background-color: #01A0C6;
 	position: absolute;
 	top: 165vh;
 	left: 29.2%;
 	border-top-left-radius: 150px;
 	border-bottom-left-radius: 150px;
+}
+@media (max-width: 1045px){
+	.containerfed__blockPresi{
+		width: 70.8vw;
+	}
 }
 .containerfed__blockPresi--image{
 	width: 285px;
@@ -94,12 +119,22 @@ body{
 	color: #fff;  
 	margin-bottom: 30px;
 }
+@media (max-width: 1045px){
+	.containerfed__blockPresi--paragraph{
+		font-size: 18px;
+	}
+}
 .containerfed__blockPresi--subtitle{
 	width: 20vw;
 	font-size: 25px;
 	font-family: 'Muli', sans-serif;
 	color: #fff;
 	line-height: 1.6em;
+}
+@media (max-width: 1045px){
+	.containerfed__blockPresi--subtitle{
+		width: 30vw;
+	}
 }
 .containerConselho{
 	width: 100%;
@@ -108,7 +143,7 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	/*background-color: yellow;*/
+	background-color: yellow;
 }	
 .containerConselho__block{
 	display: flex;
@@ -184,9 +219,11 @@ body{
 	right: 10vw;
 }
 .containerPubl{
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	padding-bottom: 15px;
+	background-color: magenta;
 }
 .containerPubl__block--imagetitle{
 	display: flex;
@@ -234,9 +271,10 @@ body{
 }
 .containerfilie{
 	width: 100%;
-	height: 55vh;
+	height: 56vh;
 	display: flex;
 	background-color: #F9F9F9;
+	background-color: red;
 }
 .containerfilie__block{
 	display: flex;
