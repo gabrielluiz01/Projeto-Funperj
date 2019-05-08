@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 .menu-mobile{
 	
@@ -22,9 +22,10 @@
    	margin-top: 25%;
 }
 .listaMenuMobile-item{
-    font-size: 32px;
-    margin: 20px;
+    font-size: 31px;
+    margin: 25px;
     color: #000000;
     text-decoration: none;
-    text-align: center;
+    /*text-align: center;*/
+    font-family: 'Muli', sans-serif;
 }
