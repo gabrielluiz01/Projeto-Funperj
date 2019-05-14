@@ -27,6 +27,13 @@ body {
     left: -30vw;
     top: -10vh;    
 }
+@media (max-width: 640px){
+    .containerFirst__block--image{
+        width: 250px;
+        height: 700px;
+        left: -40vw;
+    }
+}
 @media (max-width: 965px){
     .containerFirst__block--image{
         width: 450px;
@@ -43,8 +50,8 @@ body {
 }
 @media (max-width: 690px){
     .containerFirst--title{
-        font-size: 23px;
-        width: 45vw;
+        font-size: 20px;
+        width: 50vw;
     }
 }
 @media (max-width: 768px){
@@ -55,7 +62,6 @@ body {
 }
 .containerfed{
     width: 100%;
-    /*height: 130vh;*/
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -67,9 +73,9 @@ body {
     }
 }
 .containerfed--sub{
-    width: 6vw;
+    width: 7vw;
     font-family: 'Muli', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #fff;
     border-bottom: 4px solid white;
     border-bottom-style: dotted;
@@ -86,11 +92,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    left: 26vw;
     /*background-color: green;*/
 }
 @media (max-width: 425px){
     .containerfed__blockSobre{
-        width: 100%;
+        width: 80%;
         align-items: center;
         justify-content: space-between;
         position: relative;
@@ -103,6 +111,11 @@ body {
     color: #fff;
     font-weight: bold;
     position: relative;
+}
+@media (max-width: 690px){
+    .containerfed__blockSobre--subtitle{
+        font-size: 1.25rem;
+    }
 }
 .containerfed__blockSobre--paragraph {
     font-size: 0.90rem;
@@ -128,42 +141,42 @@ body {
 .containerPresidente{
     width: 100%;
     background-color: #2E3192;
-    position: relative;
     margin-bottom: 80px;
 }
+@media (max-width: 690px){
+    .containerPresidente{
+        flex-direction: column;
+    }
+}
 .containerPresidente__block{
-    width: 70vw;
+    width: 75vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     background-color: #01A0C6;
     position: relative;
     top: 10vh;
-    left: 29.2%;
+    left: 24.1%;
     border-top-left-radius: 150px;
-    border-bottom-left-radius: 150px;]
-}
-@media (max-width: 786px){
-    .containerPresidente__block{
-        padding-top: 20px;
-    }
+    border-bottom-left-radius: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 @media (max-width: 690px){
     .containerPresidente__block{
+        width: 100%;
         border-radius: 0;
-        /*width: 100%;*/
-        position: relative;
-        right: 10vw;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        left: 0;
     }
 }
-.containerPresidente__blockSecond{
-
-} 
 .containerPresidente__block--image {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin-left: 15px;
     opacity: 0.7;
 }
 .containerPresidente__block--subtitle{
@@ -178,6 +191,11 @@ body {
     font-style: italic;
     color: #fff;
     margin-bottom: 30px;
+}
+@media (max-width: 690px){
+    .containerPresidente__block--paragraph{
+        width: 50vw;
+    }
 }
 .containerConselho {
     width: 100%;
