@@ -46,6 +46,7 @@ body {
     font-family: 'Muli', sans-serif;
     align-self: flex-end;
     position: relative;
+    padding-bottom: 20px;
     left: 10vw;
 }
 @media (max-width: 690px){
@@ -57,6 +58,8 @@ body {
 @media (max-width: 768px){
     .containerFirst--title{
         width: 40vw;
+        font-size: 25px;
+        left: 13vw;
         
     }
 }
@@ -79,6 +82,7 @@ body {
     color: #fff;
     border-bottom: 4px solid white;
     border-bottom-style: dotted;
+    margin-bottom: 20px;
 }
 @media (max-width: 520px){
     .containerfed--sub{
@@ -94,7 +98,6 @@ body {
     justify-content: space-between;
     position: relative;
     left: 26vw;
-    /*background-color: green;*/
 }
 @media (max-width: 425px){
     .containerfed__blockSobre{
@@ -111,6 +114,7 @@ body {
     color: #fff;
     font-weight: bold;
     position: relative;
+    padding-bottom: 15px;
 }
 @media (max-width: 690px){
     .containerfed__blockSobre--subtitle{
@@ -122,6 +126,7 @@ body {
     font-family: 'Muli', sans-serif;
     width: 35vw;
     color: #fff;
+    margin-top: 15px;
 }
 @media (max-width: 425px){
     .containerfed__blockSobre--paragraph{
