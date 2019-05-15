@@ -1,7 +1,4 @@
 
-* {
-	margin: 0;
-	padding: 0;
 *{
 	margin: 0;
 	padding: 0;
@@ -54,8 +51,6 @@ header{
 
 .headerMenu-mobile{
 	display:none;
-
-
 }
 @media(max-width: 640px){
 	.headerMenu-mobile{
@@ -66,12 +61,8 @@ header{
 		font-family: 'Muli', sans-serif;
 		text-decoration: none;
 		color: #000000;
-
-=======
-body {
-    width: 100%;
+    }
 }
-
 .containerFirst{
     width: 100%;
     height: 26vh;
