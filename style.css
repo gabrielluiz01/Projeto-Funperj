@@ -621,6 +621,7 @@ main{
 }
 .containerfilie__block {
 	width: 70vw;
+    height: auto;s
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -762,82 +763,10 @@ input{
 		left: 46vw;
 	}
 }
-.rodapé{
+footer{
     width: 100%;
 }
-li{
-    background-color: #FFFFFF;
-
-}
-
-.paragrafo{
-    color: #FFFFFF;
-    font-size: 14px;
-    font-family: 'Muli', sans-serif;
-
-}
-@media(max-width: 640px){
-    .paragrafo{
-        font-size: 16px;
-    }
-}
-.paragrafo-tel{
-    color: #FFFFFF;
-    font-size: 14px;
-    font-family: 'Muli', sans-serif;
-    margin-bottom: 15px;
-}
-.paragrafo-face{
-    color: #FFFFFF;
-    font-size: 14px;
-    font-family: 'Muli', sans-serif;
-    margin-bottom: 15px;
-}
-.paragrafo-h3{
-    color: #FFFFFF;
-    font-family: 'Muli', sans-serif;
-
-}
-@media(max-width: 640px){
-    .paragrafo-h3{
-        font-size: 18px;
-        margin: 0;
-        padding: 2px;
-        margin-bottom: 2%;
-    }
-}
-.parceiros-footer{
-    color: #13007C;
-    margin-left: 8%;
-    margin-right: 80px;
-    font-family: 'Muli';
-
-}
-@media(max-width: 640px){
-    .parceiros-footer{
-        font-size: 27px;
-        width: 5%;
-
-    }
-}
-.parceiros-img{
-    width: 72px;
-    height: 30px;
-    margin: 18px;
-}
-@media(max-width: 640px){
-    .parceiros-img{
-        width: 20%;
-
-}   
-}
-@media(max-width: 640px){
-    .caixa-contato{
-        width: 100%;
-    }
-}
-
-.parceiros{
+.containerParceiros{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -847,34 +776,54 @@ li{
     justify-content: center;
 }
 @media (max-width: 845px){
-    .parceiros{
+    .containerParceiros{
         flex-wrap: wrap;
     }
 }
-.paragrafo-link{
-    color: #FFFFFF;
-    text-decoration: none;
-    justify-content: flex-end;
-    font-family: 'Muli', sans-serif;
-}
+
 @media(max-width: 640px){
-    .paragrafo-link{
-        font-size: 16px;
+    .containerParceiros__block{
+        width: 100%;
     }
 }
-.contatos{
+.containerParceiros__block--title{
+    color: #13007C;
+    margin-left: 8%;
+    margin-right: 80px;
+    font-family: 'Muli';
+
+}
+@media(max-width: 640px){
+    .containerParceiros__block--title{
+        font-size: 27px;
+        width: 5%;
+
+    }
+}
+.containerParceiros__block--image{
+    width: 72px;
+    height: 30px;
+    margin-left: 15px;
+}
+@media(max-width: 640px){
+    .containerParceiros__block--title{
+        width: 20%;
+
+    }   
+}
+.containerContatos{
     width: 100%;
     display: flex;
     background-color:#13007C;
 
 }
 @media(max-width: 640px){
-.contatos{
-    display: flex;
-    flex-wrap: wrap;
+    .containerContatos{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
-}
-.caixa-h1{
+.containerContatos--title{
     color: #FFFFFF;
     display: flex;
     flex-direction: row;
@@ -884,30 +833,65 @@ li{
 
 }
 @media(max-width: 640px){
-    .caixa-h1{
+    .containerContatos--title{
         margin-left: 35px;
     }
 }
-.caixa1{
+.containerContatos__block{
     width: 100vw;
     margin-left: 18%;
 }
 @media(max-width: 640px){
-    .caixa1{
+    .containerContatos__block{
         margin-left:35px;
     }
 }
-.caixa-link{
+.containerContatos__block--subtitle{
+    color: #FFFFFF;
+    font-family: 'Muli', sans-serif;
+
+}
+@media(max-width: 640px){
+    .containerContatos__block--subtitle{
+        font-size: 18px;
+        margin: 0;
+        padding: 2px;
+        margin-bottom: 2%;
+    }
+}
+.containerContatos__block--paragraph{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+
+}
+@media(max-width: 640px){
+    .containerContatos__block--paragraph{
+        font-size: 16px;
+    }       
+}
+.containerContatos__blockLink{
+    color: #FFFFFF;
+    text-decoration: none;
+    justify-content: flex-end;
+    font-family: 'Muli', sans-serif;
+}
+@media(max-width: 640px){
+    .containerContatos__blockLink{
+        font-size: 16px;
+    }
+}
+
+.containerContatos__blockLink--links{
     width: 100%;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10%;
 
 }
 @media(max-width: 640px){
-    .caixa-link{
+    .containerContatos__blockLink--links{
         border-left: 4px solid  #FFFFFF;
         border-left-style: dotted;
         padding-left: 16px;
