@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, scale=1">
 	<link rel="stylesheet"  href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link rel="shortcut icon" href="assets/Logo-Funperj1.png">
 	<title>FUNPERJ</title>
 </head>
 <body>
@@ -11,27 +13,23 @@
 		<img class="headerLogo" src="assets/Logo-Funperj.svg" alt="logo">
 		<a class="headerMenu-mobile" href="menu.html">MENU</a>
 		<nav class="headerMenu">
-			<a class="headerMenu-item" href="">Sobre</a>
-			<a class="headerMenu-item" href="">Publicações</a>
-			<a class="headerMenu-item" href="">Filie-se</a>
-			<a class="headerMenu-item" href="">Contato</a>
+			<a class="headerMenu-item" href="#sobre">Sobre</a>
+			<a class="headerMenu-item" href="#publ">Publicações</a>
+			<a class="headerMenu-item" href="#filie">Filie-se</a>
+			<a class="headerMenu-item" href="#contatos">Contato</a>
 		</nav>
 	</header>
-	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-	<link rel="shortcut icon" href="assets/Logo-Funperj1.png">
-	<title>Funperj</title>
-</head>
 <body>
-	<section class="containerFirst">
-		<div class="containerFirst__block">
-			<img class="containerFirst__block--image" 
-				src="assets/home.png">  
-		</div>		
-		<h1 class="containerFirst--title">Federação das Fundações do Estado do Rio de Janeiro</h1>
-	</section>
 	<main>
+		<section class="containerFirst">
+			<div class="containerFirst__block">
+				<img class="containerFirst__block--image" 
+					src="assets/home.png">  
+			</div>		
+			<h1 class="containerFirst--title">Federação das Fundações do Estado do Rio de Janeiro</h1>
+		</section>
 		<section class="containerfed">
-			<div class="containerfed__blockSobre">	
+			<div class="containerfed__blockSobre" id="sobre">	
 				<h2 class="containerfed--sub">FILIE-SE</h2>
 				<h2 class="containerfed__blockSobre--subtitle">Sobre nós</h2>
 				<p class="containerfed__blockSobre--paragraph">A Federação da Fundações privadas, Associações e das demais Organizações da Sociedade Civil do Estado do Rio de Janeiro - Funperj , instituída em 13 de junho de 1996, é uma sociedade civil sem fins lucrativos que agrega as instituições já elencadas anteriormente assim como todas as Organizações sem fins lucrativos do Estado.</p>
@@ -84,7 +82,7 @@
 				<img class="containerPubl__block--image" 
 					src="assets/noun_articles_868185.svg">
 			</div>
-			<div class="containerPubl__block">
+			<div class="containerPubl__block" id="publ">
 				<div class="blockBorder">
 					<h2 class="containerPubl__block--subtitle">Dilemas do enquadramento sindical para entidades do Terceiro Setor</h2>
 					<p class="containerPubl__block--paragraph">Paulo Haus Martins</p>
@@ -103,7 +101,7 @@
 			</div>	
 		</section>
 		<section class="containerfilie">
-			<div class="containerfilie__block">
+			<div class="containerfilie__block" id="filie">
 				<h1 class="containerfilie__block--title">Filie-se</h1>
 				<p class="containerfilie__block--paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius nulla id lorem maximus fringilla. Integer odio magna, tempor eu commodo at, sagittis quis ex. Fusce et faucibus enim, sed tempor sem. In tincidunt nisi massa, nec hendrerit lectus tristique vitae. Duis convallis commodo purus nec porta.</p>
 			</div>
@@ -129,5 +127,35 @@
 			</form>
 		</section>
 	</main>
+	<footer class="rodapé">
+		<div class="parceiros">
+			<div class="caixa-contato">
+				<h1 class="parceiros-footer">Parceiros</h1>
+			</div>
+			<img class="parceiros-img"src="assets/Cebraf.png">
+			<img class="parceiros-img"src="assets/BF_logo_vertical-pb.png">
+			<img class="parceiros-img"src="assets/Fundamig.png">
+			<img class="parceiros-img"src="assets/logo1 Abendi.png">
+			<img class="parceiros-img"src="assets/tecnoarte-B.png">
+			<img class="parceiros-img"src="assets/Mackenzie.png">
+		</div>
+		<div class="contatos" id="contatos">
+				<h1 class="caixa-h1">Contato</h1>
+			<div class="caixa1">
+				<h3 class="paragrafo-h3" >FunpeRJ</h3>
+				<p class="paragrafo" >Federação das Fundações e <br> Associações do Rio de Janeiro</p>
+				<p class="paragrafo" >Rua Senador Dantas,20/15º,Centro <br> Rio de Janeiro-RJ</p>
+				<p class="paragrafo-tel" > <img src="assets/baseline-phone-24px.svg">(21) 2240-9808</p>
+				<p class="paragrafo-face" > <img src="assets/facebook.svg">/funperj</p>
+			</div>
+			<div class="caixa-link">
+				<a class="paragrafo-link" href="">Sobre</a>
+				<a class="paragrafo-link" href="">Publicações</a>
+				<a class="paragrafo-link" href="">Filie-se</a>
+				<a class="paragrafo-link" href="">Contato</a>
+			</div>
+			
+		</div>	
+	</footer>
 </body>
 </html>
