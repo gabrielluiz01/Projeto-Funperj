@@ -135,6 +135,13 @@ main{
     border-bottom-style: dotted;
     margin-bottom: 20px;
 }
+@media (max-width: 370px){
+    .containerfed--sub{
+        position: relative;
+        top: 6vh;
+        right: 26vw;
+    }
+}
 @media (max-width: 520px){
     .containerfed--sub{
         align-self: center;
@@ -163,6 +170,7 @@ main{
         justify-content: space-between;
         position: relative;
         left: 7vw;
+        margin-bottom: 100px;
     }
 }
 .containerfed__blockSobre--subtitle{
@@ -198,11 +206,12 @@ main{
     font-family: 'Muli', sans-serif;
     width: 35vw;
     color: #fff;
-    margin-top: 15px;
+    margin-bottom: 25px;
 }
 @media (max-width: 425px){
     .containerfed__blockSobre--paragraph{
         width: 70%;
+        margin-bottom: 5vh;
     }
 }
 .containerPresidente{
@@ -486,6 +495,7 @@ main{
 	.containerPubl{
 		height: 85vh;
 		flex-direction: column;
+        margin-bottom: 30px;
 	}
 
 }
@@ -614,7 +624,7 @@ main{
 }
 @media (max-width: 425px){
 	.containerfilie{
-		height: 95vh;
+		height: 105vh;
 		flex-direction: column;
 		align-items: center;	
 	}
@@ -778,6 +788,7 @@ footer{
 @media (max-width: 845px){
     .containerParceiros{
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
 
@@ -804,6 +815,7 @@ footer{
     width: 72px;
     height: 30px;
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 @media(max-width: 640px){
     .containerParceiros__block--title{
@@ -814,6 +826,8 @@ footer{
 .containerContatos{
     width: 100%;
     display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
     background-color:#13007C;
 
 }
@@ -825,8 +839,6 @@ footer{
 }
 .containerContatos--title{
     color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
     margin-left: 19.5%;
     margin-top:22px;
     font-family: 'Muli'black;
@@ -849,7 +861,7 @@ footer{
 .containerContatos__block--subtitle{
     color: #FFFFFF;
     font-family: 'Muli', sans-serif;
-
+    font-size: 20px;
 }
 @media(max-width: 640px){
     .containerContatos__block--subtitle{
@@ -861,13 +873,15 @@ footer{
 }
 .containerContatos__block--paragraph{
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Muli', sans-serif;
 
 }
 @media(max-width: 640px){
     .containerContatos__block--paragraph{
         font-size: 16px;
+        width: 70vw;
+        margin-bottom: 10px;
     }       
 }
 .containerContatos__blockLink{
@@ -875,6 +889,9 @@ footer{
     text-decoration: none;
     justify-content: flex-end;
     font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    line-height: 1.6em;
 }
 @media(max-width: 640px){
     .containerContatos__blockLink{
@@ -888,7 +905,6 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 @media(max-width: 640px){
     .containerContatos__blockLink--links{
