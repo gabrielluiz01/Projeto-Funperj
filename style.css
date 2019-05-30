@@ -49,21 +49,75 @@ header{
 		display: none;
 	}
 }
-
-.headerMenu-mobile{
-	display:none;
+/*=====|Menu Mobile|=====*/ 
+.menuMobile{
+    display: none;
+    position: relative;
 }
-@media(max-width: 640px){
-	.headerMenu-mobile{
-		font-size: 2.5vh;
-		display: flex;
-		margin-top: 15px;
-		margin-left: 30px;
-		font-family: 'Muli', sans-serif;
-		text-decoration: none;
-		color: #000000;
+    @media (max-width: 425px) {
+        .menuMobile{
+            display: initial;
+        }
     }
+.mobileButton {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 15px;
+    display: none;
+    cursor: pointer;
+}   
+    
+    @media (max-width: 425px) {
+        .mobileButton {
+            display: flex;
+        }
+    }
+.menuMobile__block{
+    background: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+    right: 0;
+    z-index: 15;
 }
+.blockbuttonexit{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+.buttonexit{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    font-size: 20px;
+}
+ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.blocoMenuMobile-menu-link {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*==========*/      
 main{
     overflow: hidden;
 }
@@ -616,9 +670,24 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #13007C;
+    padding: 15px 0px;
 }
 .block__desenv--paragraph{
+    width: 30%;
     margin-left: 15px;
+    color: rgb(115,115,115);
+    text-align: center;
+}
+@media (max-width: 425px){
+    .block__desenv--paragraph{
+        width: 100%;
+    }
+}
+@media (max-width: 768px){
+    .block__desenv--paragraph{
+        min-width: 45%;
+    }
 }
 .block__desenv--image{
     width: 60px;
