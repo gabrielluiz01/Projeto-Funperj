@@ -23,7 +23,7 @@ header{
 @media(max-width: 640px){
 	.headerLogo{
 		width: 45%;
-		margin-left: 95px;
+		margin-left: 85px;
 		margin-top: 10px;
 	}
 }
@@ -57,6 +57,7 @@ header{
     @media (max-width: 425px) {
         .menuMobile{
             display: initial;
+            width: 20%;
         }
     }
 .mobileButton {
@@ -99,13 +100,11 @@ header{
     width: 100%;
     font-size: 20px;
 }
-ul{
-    height: 100%;
+.menuMobile__blockLink{
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    list-style: none;
 }
 .blocoMenuMobile-menu-link {
     color: black;
@@ -367,6 +366,11 @@ main{
     color: #fff;
     font-size: 25px;
     margin-bottom: 30px;
+}
+@media (max-width: 425px){
+    .containerCamaras__block--title{
+        margin-bottom: 10px;
+    }
 }
 .containerCamaras__block--paragraph{
     color: #fff;
@@ -679,6 +683,11 @@ footer{
     color: rgb(115,115,115);
     text-align: center;
 }
+@media (max-width: 375px){
+    .block__desenv--paragraph{
+        margin-right: 15px;
+    }
+}
 @media (max-width: 425px){
     .block__desenv--paragraph{
         width: 100%;
@@ -688,8 +697,4 @@ footer{
     .block__desenv--paragraph{
         min-width: 45%;
     }
-}
-.block__desenv--image{
-    width: 60px;
-    height: 40px;
 }
