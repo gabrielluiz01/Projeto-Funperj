@@ -126,6 +126,7 @@ main{
     align-items: flex-end;
     justify-content: center;
     background-color: #13007C;
+    padding: 5vh 0;
 }
 .containerSobre__blockImage{
     width: 40vw;
@@ -296,6 +297,7 @@ main{
     align-items: center;
     margin-top: 10vh;
     margin-bottom: 35px;
+    padding: 5vh 0;
 }
 @media (max-width: 768px){
     .containerConselho{
@@ -353,6 +355,7 @@ main{
     display: flex;
     justify-content: center;
     background-color: #01A0C6;
+    padding: 5vh 0;
 }
 @media (max-width: 425px){
     .containerCamaras{
@@ -410,6 +413,7 @@ main{
     min-height: 80vh;
     display: flex;
     justify-content: space-between;
+    padding: 5vh 0;
 }
 @media (max-width: 768px){
     .containerPubl{
@@ -496,6 +500,7 @@ main{
     justify-content: space-around;
     background-color: #F9F9F9;
     padding-bottom: 20px;
+    padding: 5vh 0;
 }
 @media (max-width: 700px){
     .containerFilie{
@@ -567,6 +572,7 @@ button{
     min-height: 15vh;
     display: flex;
     align-items: center;
+    padding: 5vh 0;
 }
 @media (max-width: 425px){
     .containerParceiros{
@@ -608,6 +614,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: #13007C;
+    padding: 5vh 0;
 }
 @media (max-width: 425px){
     footer{
