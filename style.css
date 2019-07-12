@@ -215,11 +215,16 @@ main{
     margin-bottom: 5vh; 
 }
 .containerSobre__block--paragraph{
-    width: 85vw;
+    width: 30vw;
     color: #fff;
     font-size: 16px;
     line-height: 23px;
     margin: 1rem 0;
+}
+@media (max-width: 425px){
+    .containerSobre__block--paragraph{
+        width: 85vw;
+    }
 }
 .containerPresidente{
     width: 100%;
