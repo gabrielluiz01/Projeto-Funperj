@@ -694,9 +694,14 @@ footer{
     content: '';
     background-image: url(assets/baseline-phone-24px.svg);
     position: absolute;
-    left: 56px;
+    left: 36vw;
     width: 1.50rem;
     height: 1.5rem;
+}
+@media (max-width: 425px){
+    .blockContatos--paragraphP::after{
+        left: 52px;
+    }
 }
 .blockContatos--paragraphF{
     color: #fff;
@@ -706,9 +711,14 @@ footer{
     content: '';
     background-image: url(assets/facebook.svg);
     position: absolute;
-    left: 56px;
+    left: 36vw;
     width: 1.2rem;
     height: 1.2rem;
+}
+@media (max-width: 425px){
+    .blockContatos--paragraphF::after{
+        left: 52px;
+    }
 }
 .block__links{
     display: flex;
