@@ -119,6 +119,9 @@ header{
 /*==========*/      
 main{
     overflow: hidden;
+
+}
+.container-pai{
     display: flex;
     flex-direction: column;
     background-color: #13007C;
@@ -177,7 +180,8 @@ main{
 }
 @media (max-width: 768px){
     .containerSobre--title{
-        width: 75vw;
+        width: 70vw;
+        align-self: flex-end;
 
     }
 }
@@ -205,7 +209,7 @@ main{
 }
 @media (max-width: 425px){
     .containerSobre__block--sub{
-        width: 18%;
+        width: 23vw;
         left: 5rem;
     }
 }
